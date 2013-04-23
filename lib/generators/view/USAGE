@@ -5,6 +5,6 @@ Example:
     rails generate view Thing
 
     This will create:
-        7 CRUD views for Thing model, based on Thing accessible
+        4 CRUD views for Thing model, based on Thing accessible
         attributes and on default template engine
 

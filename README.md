@@ -1,6 +1,7 @@
 # ViewGenerator
 
-TODO: Write a gem description
+Generates views for existing ActiveRecord model passed as argument.
+No need to specify model attributes, it will pick them up from attr_accessible
 
 ## Installation
 
@@ -18,7 +19,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Example:
+
+    rails generate view Thing
+
+This will create:
+* 4 CRUD views for Thing model, based on Thing accessible attributes and on default template engine
 
 ## Contributing
 
